@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "gdx": "https://geodex.org/voc/"
+  },
+  "@type": ["Service", "Organization"],
+  "additionalType": "gdx:ResearchRepositoryService",
+  "legalName": "Incorporated Research Institutions for Seismology Data Servicses",
+  "name": "IRIS DS",
+  "description": "IRIS Data Services (DS) has very specific charges and consists of several components or \"nodes\".",
+  "url": "http://ds.iris.edu/ds/",
+  "location": 
+  {"@type": "PostalAddress",
+   "addressLocality": "Seattle"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "name": "Rick Bensen",
+    "email": "rick@iris.washington.edu",
+    "url": "http://ds.iris.edu/ds/",
+    "contactType": "technical support"
+  },
+  "logo": {
+      "@type": "ImageObject",
+      "url": "http://www.iris.edu/hq/files/publications/logos/iris_color_screen_lrg.png"
+  },
+  "sameAs": [
+    "http://www.re3data.org/repository/r3d100010268"
+  ],
+  "category": ["Seismology", "Seismic Data Services", "seismology workshop", "seismic monitor",
+    "seismic waveform", "earthquake", "earthquake education"
+  ],
+  "hasOfferCatalog": [
+    {
+      "@type": "OfferCatalog",
+      "additionalType": "gdx:OutreachActivities",
+      "itemListElement": [
+        {
+          "@type": "Action",
+          "@id": "gdx:OutreachActivity-Training",
+          "additionalType": "gdx:OutreachActivity-UserWorkshop",
+          "name": "2018 IRIS Workshop",
+          "description": "Foundations, Frontiers, and Future Facilities for Seismology, June 12-14, 2018, Albuqueque, NM",
+          "url": "https://www.iris.edu/hq/workshops/2018/06/iris_workshop_2018"
+        }
+      ]
+    }
+  ]
+}

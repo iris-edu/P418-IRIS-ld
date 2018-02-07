@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },
+  "@type": "Dataset",
+  "name": "IRIS FDSN SEED Data",
+  "description": "The IRIS fdsnws-dataselect web service returns SEED data in miniSEED format The SEED (Standard for the Exchange of Earthquake Data) format is defined by FDSN (International Federation of Digital Seismograph Networks) members and used for eathquake data exchange",
+  "url": "http://service.iris.edu/fdsnws/dataselect/1/",
+  "keywords": "fdsnws-dataselect, fdsnws-station, StationXML, SEED, Standard for the Exchange of Earthquake Data, FDSN, International Federation of Digital Seismograph Networks",
+  "temporalCoverage": "1926/2500",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-180.0,-90.0,180.0,90.0"
+    }
+  },
+  "fileFormat": "http://www.fdsn.org/publications/",
+  "hasPart": {
+    "@type": "CreativeWork",
+    "name": "IRIS FDSN SEED Metadata",
+    "description": "The IRIS fdsnws-station web service returns SEED metadata in FDSN StationXML format or as delimited text.",
+    "url": "http://service.iris.edu/fdsnws/station/1/"
+  }
+}
