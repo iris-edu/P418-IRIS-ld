@@ -20,6 +20,7 @@
     "@type": "CreativeWork",
     "name": "IRIS FDSN SEED Metadata",
     "description": "The IRIS fdsnws-station web service returns SEED metadata in FDSN StationXML format or as delimited text.",
-    "url": "http://service.iris.edu/fdsnws/station/1/"
+    "url": "http://service.iris.edu/fdsnws/station/1/",
+    "fileFormat": "http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd"
   }
 }
