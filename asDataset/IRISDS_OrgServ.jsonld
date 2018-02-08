@@ -45,5 +45,28 @@
         }
       ]
     }
-  ]
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "http://service.iris.edu/sitemap.xml",
+    "providesService": {
+      "@type": "Service",
+      "additionalType": "gdx:SyndicationService",
+      "name": "Sitemap XML",
+      "description": "A Sitemap XML providing access to all of the resources for harvesting",
+      "potentialAction": {
+        "@type": "ConsumeAction",
+        "target": {
+          "@type": "EntryPoint",
+          "additionalType": "gdx:SitemapXML",
+          "urlTemplate": "http://service.iris.edu/sitemap.xml?page={page}"
+        },
+        "object": {
+          "@type": "DigitalDocument",
+          "url": "http://service.iris.edu/sitemap.xml",
+          "fileFormat": "application/xml"
+        }
+      }
+    }
+  }
 }
