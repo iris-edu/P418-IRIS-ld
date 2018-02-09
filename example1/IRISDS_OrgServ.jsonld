@@ -4,6 +4,7 @@
     "gdx": "https://geodex.org/voc/"
   },
   "@type": ["Service", "Organization"],
+  "@id": "http://ds.iris.edu/ds/",
   "additionalType": "gdx:ResearchRepositoryService",
   "legalName": "Incorporated Research Institutions for Seismology Data Servicses",
   "name": "IRIS DS",

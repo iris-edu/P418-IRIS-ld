@@ -4,6 +4,7 @@
     "gdx": "https://geodex.org/voc/"
   },
   "@type": ["Service"],
+  "@id": "http://service.iris.edu/irisws/",
   "additionalType": "gdx:ResearchResourceTypes",
   "name": "IRIS DS WS",
   "description": "IRIS DS Web Services for seismology.",
