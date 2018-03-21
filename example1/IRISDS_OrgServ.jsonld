@@ -5,7 +5,7 @@
   },
   "@type": ["Service", "Organization"],
   "@id": "http://ds.iris.edu/ds/",
-  "additionalType": "gdx:ResearchRepositoryService",
+  "additionalType": "https://geodex.org/voc/ResearchRepositoryService",
   "legalName": "Incorporated Research Institutions for Seismology Data Servicses",
   "name": "IRIS DS",
   "description": "IRIS Data Services (DS) has very specific charges and consists of several components or \"nodes\".",
@@ -34,12 +34,12 @@
   "hasOfferCatalog": [
     {
       "@type": "OfferCatalog",
-      "additionalType": "gdx:OutreachActivities",
+      "additionalType": "https://geodex.org/voc/OutreachActivities",
       "itemListElement": [
         {
           "@type": "Action",
-          "@id": "gdx:OutreachActivity-Training",
-          "additionalType": "gdx:OutreachActivity-UserWorkshop",
+          "@id": "https://geodex.org/voc/OutreachActivity-Training",
+          "additionalType": "https://geodex.org/voc/OutreachActivity-UserWorkshop",
           "name": "2018 IRIS Workshop",
           "description": "Foundations, Frontiers, and Future Facilities for Seismology, June 12-14, 2018, Albuqueque, NM",
           "url": "https://www.iris.edu/hq/workshops/2018/06/iris_workshop_2018"
@@ -52,14 +52,14 @@
     "serviceUrl": "http://service.iris.edu/sitemap.xml",
     "providesService": {
       "@type": "Service",
-      "additionalType": "gdx:SyndicationService",
+      "additionalType": "https://geodex.org/voc/SyndicationService",
       "name": "Sitemap XML",
       "description": "A Sitemap XML providing access to all of the resources for harvesting",
       "potentialAction": {
         "@type": "ConsumeAction",
         "target": {
           "@type": "EntryPoint",
-          "additionalType": "gdx:SitemapXML",
+          "additionalType": "https://geodex.org/voc/SitemapXML",
           "urlTemplate": "http://service.iris.edu/sitemap.xml?page={page}"
         },
         "object": {

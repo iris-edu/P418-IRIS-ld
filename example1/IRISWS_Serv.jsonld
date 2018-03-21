@@ -5,7 +5,7 @@
   },
   "@type": ["Service"],
   "@id": "http://service.iris.edu/irisws/",
-  "additionalType": "gdx:ResearchResourceTypes",
+  "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
   "name": "IRIS DS WS",
   "description": "IRIS DS Web Services for seismology.",
   "url": "http://service.iris.edu/irisws/",
@@ -19,7 +19,7 @@
       {
         "@type": "Service",
         "@id": "http://service.iris.edu/irisws/fedcatalog/1/",
-        "additionalType": "gdx:ResearchResourceTypes",
+        "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
         "name": "irisws-fedcatalog web service",
         "description": "The irisws-fedcatalog web service returns selected time series channels from across multiple FDSN data centers.",
         "url": "http://service.iris.edu/irisws/fedcatalog/1/"
@@ -27,7 +27,7 @@
       {
         "@type": "Service",
         "@id": "http://service.iris.edu/irisws/syngine/1/",
-        "additionalType": "gdx:ResearchResourceTypes",
+        "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
         "name": "IRIS Synthetics Engine (syngine) web service",
         "description": "The IRIS Synthetics Engine (syngine) service uses Instaseis to generate synthetics from databases pre-computed by AxiSEM",
         "url": "http://service.iris.edu/irisws/syngine/1/"
@@ -35,7 +35,7 @@
       {
         "@type": "Service",
         "@id": "http://service.iris.edu/irisws/timeseries/1/",
-        "additionalType": "gdx:ResearchResourceTypes",
+        "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
         "name": "irisws-timeseries service web service",
         "description": "The irisws-timeseries service provides access to individual channels of time series data for a specified time range.",
         "url": "http://service.iris.edu/irisws/timeseries/1/"
@@ -46,7 +46,7 @@
     {
       "@type": "Service",
       "@id": "http://service.iris.edu/irisws/fedcatalog/1/",
-      "additionalType": "gdx:ResearchResourceTypes",
+      "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
       "name": "irisws-fedcatalog web service",
       "description": "The irisws-fedcatalog web service returns selected time series channels from across multiple FDSN data centers.",
       "url": "http://service.iris.edu/irisws/fedcatalog/1/"
@@ -54,7 +54,7 @@
     {
       "@type": "Service",
       "@id": "http://service.iris.edu/irisws/syngine/1/",
-      "additionalType": "gdx:ResearchResourceTypes",
+      "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
       "name": "IRIS Synthetics Engine (syngine) web service",
       "description": "The IRIS Synthetics Engine (syngine) service uses Instaseis to generate synthetics from databases pre-computed by AxiSEM",
       "url": "http://service.iris.edu/irisws/syngine/1/"
@@ -62,7 +62,7 @@
     {
       "@type": "Service",
       "@id": "http://service.iris.edu/irisws/timeseries/1/",
-      "additionalType": "gdx:ResearchResourceTypes",
+      "additionalType": "https://geodex.org/voc/ResearchResourceTypes",
       "name": "irisws-timeseries service web service",
       "description": "The irisws-timeseries service provides access to individual channels of time series data for a specified time range.",
       "url": "http://service.iris.edu/irisws/timeseries/1/"
